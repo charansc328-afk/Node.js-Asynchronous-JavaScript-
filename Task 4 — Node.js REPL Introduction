@@ -1,0 +1,3 @@
+const start = new Date();
+const end = new Date(start.getTime() + 5000);
+Math.ceil((end - start) / 1000);
